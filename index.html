@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tereré Essencial | Um dos melhores diuréticos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-black bg-opacity-80 backdrop-blur-md z-50 border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-8">
+                    <a href="#" class="text-2xl font-semibold tracking-tighter">
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-500">Tereré</span>
+                        <span class="text-white">Essencial</span>
+                    </a>
+                    <div class="hidden md:flex space-x-8">
+                        <a href="#preparo" class="text-gray-300 hover:text-white transition">Como Preparar</a>
+                        <a href="#beneficios" class="text-gray-300 hover:text-white transition">Benefícios</a>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <button id="mobile-menu-button" class="md:hidden p-2 rounded-full hover:bg-gray-800 transition">
+                        <i class="fas fa-bars text-gray-300"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-black border-t border-gray-800">
+            <div class="px-6 py-4 space-y-4">
+                <a href="#preparo" class="block text-gray-300 hover:text-white transition">Como Preparar</a>
+                <a href="#beneficios" class="block text-gray-300 hover:text-white transition">Benefícios</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient min-h-screen flex items-center pt-20">
+        <div class="max-w-7xl mx-auto px-6 py-20 md:py-32">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-12 md:mb-0">
+                    <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-500">A Revolução</span><br>
+                        <span class="text-white">do Tereré</span>
+                    </h1>
+                    <p class="text-xl text-gray-300 mb-8 max-w-lg">
+                        Ervas selecionadas a dedo, cultivadas organicamente e misturadas com precisão podem oferecer a experiência mais refrescante e revitalizante.
+                    </p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        </a>
+                        <a href="#preparo" class="border border-gray-700 text-white font-semibold px-8 py-3 rounded-full hover:bg-gray-900 transition text-center">
+                            Aprenda a Preparar <i class="fas fa-arrow-down ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="beneficios" class="py-20 bg-gradient-to-b from-black to-gray-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-500">Benefícios</span> 
+                    <span class="text-white">Exclusivos</span>
+                </h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+                    Descubra por que a erva para tereré é a escolha perfeita para seu bem-estar diário.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-900 p-8 rounded-2xl border border-gray-800 hover:border-green-500 transition">
+                    <div class="w-14 h-14 bg-gradient-to-r from-green-500 to-teal-600 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-leaf text-2xl text-black"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Ervas Premium</h3>
+                    <p class="text-gray-400">
+                        Busque por ervas com as melhores folhas, cultivadas sem agrotóxicos e colhidas no ponto ideal para garantir sabor e propriedades medicinais.
+                    </p>
+                </div>
+                
+                <div class="bg-gray-900 p-8 rounded-2xl border border-gray-800 hover:border-green-500 transition">
+                    <div class="w-14 h-14 bg-gradient-to-r from-green-500 to-teal-600 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-bolt text-2xl text-black"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Energia Natural</h3>
+                    <p class="text-gray-400">
+                        As ervas de tereré proporcionam uma energia limpa e duradoura, sem os efeitos colaterais do café ou energéticos artificiais.
+                    </p>
+                </div>
+                
+                <div class="bg-gray-900 p-8 rounded-2xl border border-gray-800 hover:border-green-500 transition">
+                    <div class="w-14 h-14 bg-gradient-to-r from-green-500 to-teal-600 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-heart text-2xl text-black"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Saúde Integral</h3>
+                    <p class="text-gray-400">
+                        Rico em antioxidantes, vitaminas e minerais que fortalecem o sistema imunológico e promovem a digestão saudável.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="produtos" class="py-20 bg-black">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        </div>
+    </section>
+
+    <!-- Preparation Guide -->
+    <section id="preparo" class="py-20 bg-gradient-to-b from-black to-gray-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-500">Como Preparar</span> 
+                    <span class="text-white">o Tereré Perfeito</span>
+                </h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+                    Siga nosso guia passo a passo para desfrutar do tereré como um verdadeiro conhecedor.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <!-- Step 1 -->
+                    <div class="flex items-start space-x-4">
+                        <div class="step-number">1</div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Escolha o Recipiente Ideal</h3>
+                            <p class="text-gray-400">
+                                Utilize um <span class="ingredient-highlight text-white">cuia de vidro ou porongo</span> para apreciar a cor das ervas. Evite materiais metálicos que podem alterar o sabor.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 2 -->
+                    <div class="flex items-start space-x-4">
+                        <div class="step-number">2</div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Prepare as Ervas</h3>
+                            <p class="text-gray-400">
+                                Encha <span class="ingredient-highlight text-white">2/3 do recipiente</span> com nossas ervas premium. Incline levemente e deixe as ervas assentarem em um dos lados.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 3 -->
+                    <div class="flex items-start space-x-4">
+                        <div class="step-number">3</div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Adicione a Água Gelada</h3>
+                            <p class="text-gray-400">
+                                Despeje <span class="ingredient-hightext-white">água gelada (4-8°C)</span> lentamente no lado vazio do recipiente até cobrir as ervas. Use água mineral ou filtrada para melhor sabor.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 4 -->
+                    <div class="flex items-start space-x-4">
+                        <div class="step-number">4</div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Insira a Bomba</h3>
+                            <p class="text-gray-400">
+                                Coloque a <span class="ingredient-highlight text-white">bomba</span> no lado da erva, pressionando levemente para fixar. Evite mexer para não entupir os filtros.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 5 -->
+                    <div class="flex items-start space-x-4">
+                        <div class="step-number">5</div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Aproveite!</h3>
+                            <p class="text-gray-400">
+                                Sirva devagar e <span class="ingredient-highlight text-white">recarregue com água</span> conforme necessário. As ervas rendem até 2 litros de tereré.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <img src="teras-logo.png" 
+                         alt="Preparo do tereré passo a passo" 
+                         class="rounded-2xl shadow-2xl w-full border border-gray-800">
+                    <div class="absolute -bottom-6 -left-6 bg-black bg-opacity-80 border border-gray-800 rounded-xl p-4 shadow-lg">
+                        <p class="text-sm text-white">
+                            <i class="fas fa-lightbulb text-green-500 mr-2"></i>
+                            Dica: Adicione limão, hortelã ou gengibre para variar o sabor!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-gradient-to-b from-black to-gray-900">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-500">Perguntas</span> 
+                    <span class="text-white">Frequentes</span>
+                </h2>
+            </div>
+            
+            <div class="space-y-4">
+                <!-- Question 1 -->
+                <div class="border-b border-gray-800 pb-4">
+                    <button class="faq-question flex justify-between items-center w-full text-left group">
+                        <h3 class="text-lg font-medium text-white group-hover:text-green-400 transition">Quanto tempo duram as ervas?</h3>
+                        <i class="fas fa-chevron-down text-gray-500 group-hover:text-green-400 transition transform group-focus:rotate-180"></i>
+                    </button>
+                    <div class="faq-answer mt-2 text-gray-400 max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+                        <p>As ervas de tereré têm validade de 12 meses quando armazenadas corretamente em local fresco e seco. Cada embalagem de 500g rende aproximadamente 40-50 preparações, dependendo do tamanho do seu recipiente.</p>
+                    </div>
+                </div>
+                
+                <!-- Question 2 -->
+                <div class="border-b border-gray-800 pb-4">
+                    <button class="faq-question flex justify-between items-center w-full text-left group">
+                        <h3 class="text-lg font-medium text-white group-hover:text-green-400 transition">Posso adicionar outros ingredientes?</h3>
+                        <i class="fas fa-chevron-down text-gray-500 group-hover:text-green-400 transition"></i>
+                    </button>
+                    <div class="faq-answer mt-2 text-gray-400 max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+                        <p>Sim! Recomendamos experimentar com limão, hortelã, gengibre ou frutas cítricas para variar o sabor. Evite açúcar ou adoçantes artificiais que podem mascarar o sabor natural das ervas.</p>
+                    </div>
+                </div>
+                
+                <!-- Question 3 -->
+                <div class="border-b border-gray-800 pb-4">
+                    <button class="faq-question flex justify-between items-center w-full text-left group">
+                        <h3 class="text-lg font-medium text-white group-hover:text-green-400 transition">Qual a diferença para o chimarrão?</h3>
+                        <i class="fas fa-chevron-down text-gray-500 group-hover:text-green-400 transition"></i>
+                    </button>
+                    <div class="faq-answer mt-2 text-gray-400 max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+                        <p>O tereré é preparado com água gelada, enquanto o chimarrão usa água quente. Nossas misturas são especialmente desenvolvidas para extração a frio, preservando mais nutrientes e oferecendo um sabor mais refrescante.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+                
+ 
+    <!-- Footer -->
+    <footer class="py-12 bg-gray-900 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <a href="#" class="text-2xl font-semibold tracking-tighter">
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-500">Tereré</span>
+                        <span class="text-white">Essencial</span>
+                    </a>
+                    <p class="text-gray-400 mt-4">
+                        Ervas premium para uma vida mais saudável e energética.
+                    </p>
+                </div> 
+   
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center">
+                 <p class="text-gray-500 text-sm">
+                    © 2023 Tereré Essencial. Todos os direitos reservados.
+                </p>
+</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
