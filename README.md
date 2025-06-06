@@ -5,7 +5,7 @@
 
 ## 🖼️ Preview
 
-![screenshot](site.png) <!-- Substitua por uma imagem do site, caso tenha -->
+![screenshot](site.png)
 
 ---
 
