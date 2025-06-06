@@ -5,7 +5,7 @@
 
 ## 🖼️ Preview
 
-![screenshot](screenshot.png) <!-- Substitua por uma imagem do site, caso tenha -->
+![screenshot](site.png) <!-- Substitua por uma imagem do site, caso tenha -->
 
 ---
 
@@ -78,6 +78,4 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 Contribuições são bem-vindas! Fique à vontade para abrir issues ou enviar pull requests.
 
----
 
-> Projeto desenvolvido com dedicação, inspirado na cultura e saúde natural do tereré. 🍃
